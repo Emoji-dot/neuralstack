@@ -459,14 +459,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - [Express.js Guide](https://expressjs.com/)
 - [ML Deployment Guide](https://ml-ops.org/)
 
-## 📞 Support
-
-- **GitHub Issues** - Bug reports and feature requests
-- **Documentation** - Complete API reference at `/docs`
-- **Discord** - Join our community server
-- **Email** - support@neuralstack.dev
-- **Stack Overflow** - Tag questions with `neuralstack`
+##
 
 ---
 
-**AI-Powered Intelligence** 🧠 | Built with ❤️ by Emoji-dot
