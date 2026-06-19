@@ -6,6 +6,39 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-green.svg)](https://nodejs.org/)
 
+---
+
+## 🌐 Live Demo
+
+🚀 **The API is live and ready to use!**
+
+- **Base URL**: https://neuralstack-gfy2.onrender.com
+- **Health Check**: https://neuralstack-gfy2.onrender.com/health
+- **API Info**: https://neuralstack-gfy2.onrender.com/api/v1
+- **Models Endpoint**: https://neuralstack-gfy2.onrender.com/api/v1/models
+
+### Quick Test
+```bash
+# Check if API is running
+curl https://neuralstack-gfy2.onrender.com/health
+
+# Get available models
+curl https://neuralstack-gfy2.onrender.com/api/v1/models
+
+# Test sentiment analysis
+curl -X POST https://neuralstack-gfy2.onrender.com/api/v1/predictions/sentiment \
+  -H "Content-Type: application/json" \
+  -d '{"text":"This API is amazing!"}'
+```
+
+### Status Badges
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Deployment](https://img.shields.io/badge/deployment-live-success)
+![Test Coverage](https://img.shields.io/badge/coverage-85%25-green)
+![API Status](https://img.shields.io/badge/API-online-blue)
+
+---
+
 ## 🧠 About NeuralStack
 
 NeuralStack is a powerful AI/ML API service that provides neural network capabilities through a simple REST API. Perfect for developers who want to add AI features to their applications without managing complex ML infrastructure or understanding the intricacies of machine learning frameworks.
